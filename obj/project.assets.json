@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\fun\\signalRtest\\signalRtest.csproj",
+      "projectUniqueName": "C:\\Dev\\courierclash-signalr\\signalRtest.csproj",
       "projectName": "signalRtest",
-      "projectPath": "C:\\Dev\\fun\\signalRtest\\signalRtest.csproj",
+      "projectPath": "C:\\Dev\\courierclash-signalr\\signalRtest.csproj",
       "packagesPath": "C:\\Users\\RobinGranqvist\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\fun\\signalRtest\\obj\\",
+      "outputPath": "C:\\Dev\\courierclash-signalr\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\RobinGranqvist\\AppData\\Roaming\\NuGet\\NuGet.Config",

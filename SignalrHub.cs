@@ -15,7 +15,6 @@ namespace signalRtest
         {
             this.hubContext = hubContext;
 
-
             timer = new Timer(async _ =>
             {
                 Console.WriteLine("players " + gameStatus.Players.Count);
