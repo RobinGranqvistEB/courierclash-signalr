@@ -11,6 +11,9 @@ builder.Services.AddCors(options =>
         .AllowCredentials());
 });
 
+builder.Services.AddSingleton<GameTimer>();
+builder.Services.AddSingleton<GameManager>();
+
 var app = builder.Build();
 
 app.UseHttpsRedirection();
@@ -18,5 +21,7 @@ app.UseHttpsRedirection();
 app.UseCors("CorsPolicy");
 
 app.MapHub<SignalrHub>("/hub");
+
+app.Services.GetRequiredService<GameTimer>().StartTimer();
 
 app.Run();
